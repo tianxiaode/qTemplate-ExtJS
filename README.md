@@ -12,7 +12,7 @@ qTemplate是一个基于Ext JS经典工具包（calssic tookit）的模版。它
 * [登录](docs/zh-cn/login.MD)
 * [使用CRUD模版](docs/zh-cn/crud.MD)
 
-![用户列表视图](docs/images/userList.png)
-![用户新建视图](docs/images/userAdd.png)
+![用户列表视图](https://github.com/tianxiaode/qTemplate-ExtJS/blob/master/docs/images/userList.PNG)
+![用户新建视图](https://github.com/tianxiaode/qTemplate-ExtJS/blob/master/docs/images/userAdd.PNG)
 
 
