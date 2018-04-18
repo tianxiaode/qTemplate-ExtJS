@@ -1,0 +1,16 @@
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.dll.config
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.deps.json
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.runtimeconfig.json
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.runtimeconfig.dev.json
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.dll
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.pdb
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Sample.Core.dll
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\bin\Debug\netcoreapp2.0\Sample.Core.pdb
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.csprojResolveAssemblyReference.cache
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.dll.config
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.AssemblyInfo.cs
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.csproj.CopyComplete
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.dll
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.EntityFrameworkCore\obj\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.pdb

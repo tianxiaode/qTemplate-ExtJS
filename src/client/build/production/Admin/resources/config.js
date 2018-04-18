@@ -1,0 +1,1 @@
+var ROOTPATH="http://localhost:62932/";var IMAGEPATH="http://localhost:62932/";var DEBUG=true;

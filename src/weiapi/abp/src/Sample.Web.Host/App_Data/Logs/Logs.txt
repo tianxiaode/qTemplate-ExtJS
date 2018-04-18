@@ -1,0 +1,1112 @@
+DEBUG 2018-04-18 14:23:01,071 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-18 14:23:01,152 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-04-18 14:23:01,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.Web.Host.Startup.SampleWebHostModule, Sample.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.SampleWebCoreModule, Sample.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.SampleApplicationModule, Sample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.SampleCoreModule, Sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.EntityFrameworkCore.SampleEntityFrameworkModule, Sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:01,208 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-04-18 14:23:01,337 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-18 14:23:01,337 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-18 14:23:01,337 [1    ] o.Configuration.LanguageManagementConfig - Converted Sample (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-18 14:23:01,337 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-18 14:23:01,871 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Sample.EntityFrameworkCore.SampleDbContext, Sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:23:02,481 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-18 14:23:02,541 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-18 14:23:02,591 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-18 14:23:02,613 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sample
+DEBUG 2018-04-18 14:23:02,645 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-18 14:23:02,687 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-18 14:23:02,737 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-04-18 14:23:02,737 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-18 14:23:02,741 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Users.Dto.CreateUserDto
+DEBUG 2018-04-18 14:23:02,742 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Users.Dto.UserDto
+DEBUG 2018-04-18 14:23:02,742 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-18 14:23:02,742 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-18 14:23:02,742 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-18 14:23:02,742 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Roles.Dto.PermissionDto
+DEBUG 2018-04-18 14:23:02,742 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Roles.Dto.RoleDto
+DEBUG 2018-04-18 14:23:02,743 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-18 14:23:02,743 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.MultiTenancy.Dto.TenantDto
+INFO  2018-04-18 14:23:05,206 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-04-18 14:23:06,438 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Web.Host.Controllers.HomeController.Index (Sample.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:23:06,522 [15   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-04-18 14:23:06,528 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Web.Host.Controllers.HomeController.Index (Sample.Web.Host) in 369.6914ms
+INFO  2018-04-18 14:23:06,538 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1356.4172ms 302 
+INFO  2018-04-18 14:23:06,551 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-04-18 14:23:06,566 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.9428ms 301 
+INFO  2018-04-18 14:23:06,580 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-04-18 14:23:06,597 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,605 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.7898ms 200 text/html
+INFO  2018-04-18 14:23:06,709 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-04-18 14:23:06,712 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-04-18 14:23:06,713 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/typography.css'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,714 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.9428ms 200 text/css
+INFO  2018-04-18 14:23:06,714 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-04-18 14:23:06,714 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/reset.css'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,715 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.4434ms 200 text/css
+INFO  2018-04-18 14:23:06,717 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-04-18 14:23:06,717 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-04-18 14:23:06,718 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/screen.css'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,718 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/print.css'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,719 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,719 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.6352ms 200 application/javascript
+INFO  2018-04-18 14:23:06,719 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.0464ms 200 text/css
+INFO  2018-04-18 14:23:06,719 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-04-18 14:23:06,719 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.818ms 200 text/css
+INFO  2018-04-18 14:23:06,721 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,721 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.1524ms 200 application/javascript
+INFO  2018-04-18 14:23:06,722 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-04-18 14:23:06,722 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-04-18 14:23:06,724 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,724 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,725 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.5185ms 200 application/javascript
+INFO  2018-04-18 14:23:06,730 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-04-18 14:23:06,732 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-04-18 14:23:06,732 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,736 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.0217ms 200 application/javascript
+INFO  2018-04-18 14:23:06,736 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.2537ms 200 application/javascript
+INFO  2018-04-18 14:23:06,737 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,737 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.7269ms 200 application/javascript
+INFO  2018-04-18 14:23:06,740 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-04-18 14:23:06,746 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,747 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.1821ms 200 application/javascript
+INFO  2018-04-18 14:23:06,748 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-04-18 14:23:06,749 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-04-18 14:23:06,750 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,751 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,752 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.3549ms 200 application/javascript
+INFO  2018-04-18 14:23:06,764 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-04-18 14:23:06,766 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,767 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.6168ms 200 application/javascript
+INFO  2018-04-18 14:23:06,767 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-04-18 14:23:06,767 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-04-18 14:23:06,769 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,769 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.2246ms 200 application/javascript
+INFO  2018-04-18 14:23:06,770 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.0305ms 200 application/javascript
+INFO  2018-04-18 14:23:06,771 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,772 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-04-18 14:23:06,776 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,776 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.9946ms 200 application/javascript
+INFO  2018-04-18 14:23:06,777 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.6814ms 200 application/javascript
+INFO  2018-04-18 14:23:06,778 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-04-18 14:23:06,780 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,781 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.5228ms 200 application/javascript
+INFO  2018-04-18 14:23:06,807 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-04-18 14:23:06,809 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,809 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.0411ms 200 image/png
+INFO  2018-04-18 14:23:06,981 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/favicon-16x16.png  
+INFO  2018-04-18 14:23:06,983 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-04-18 14:23:06,983 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.1922ms 200 image/png
+INFO  2018-04-18 14:23:07,023 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-04-18 14:23:07,262 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 239.3212ms 200 application/json
+INFO  2018-04-18 14:23:07,788 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1524032587780  
+INFO  2018-04-18 14:23:07,789 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-04-18 14:23:07,791 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1524032587780  
+INFO  2018-04-18 14:23:07,791 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.1467ms 200 application/javascript
+INFO  2018-04-18 14:23:07,791 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-04-18 14:23:07,792 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0456ms 200 application/javascript
+INFO  2018-04-18 14:23:25,046 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-04-18 14:23:25,049 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:23:25,051 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.4656ms 204 
+INFO  2018-04-18 14:23:25,058 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 40
+INFO  2018-04-18 14:23:25,059 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:23:25,060 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-04-18 14:23:25,088 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+WARN  2018-04-18 14:23:25,417 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+WARN  2018-04-18 14:23:25,423 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2018-04-18 14:23:25,423 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - The UserNameOrEmailAddress field is required. (UserNameOrEmailAddress)
+INFO  2018-04-18 14:23:25,535 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:23:25,545 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Controllers.TokenAuthController.Authenticate (Sample.Web.Core) in 457.4606ms
+INFO  2018-04-18 14:23:25,548 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 489.3843ms 400 application/json; charset=utf-8
+INFO  2018-04-18 14:24:54,101 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-04-18 14:24:54,101 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:24:54,102 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4438ms 204 
+INFO  2018-04-18 14:24:54,106 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2018-04-18 14:24:54,106 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:24:54,107 [18   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-04-18 14:24:54,113 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:24:54,124 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Controllers.TokenAuthController.Authenticate (Sample.Web.Core) with arguments (Sample.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-04-18 14:24:54,698 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:24:54,701 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Controllers.TokenAuthController.Authenticate (Sample.Web.Core) in 587.8102ms
+INFO  2018-04-18 14:24:54,701 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 595.3391ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:24:57,338 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformation?_dc=1524032697314  
+INFO  2018-04-18 14:24:57,338 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:24:57,338 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4546ms 204 
+INFO  2018-04-18 14:24:57,344 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformation?_dc=1524032697314  
+INFO  2018-04-18 14:24:57,344 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:24:57,362 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:24:57,367 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:24:57,477 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 132.7789ms 404 
+INFO  2018-04-18 14:36:33,619 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/explorer_icons.png  
+INFO  2018-04-18 14:36:33,621 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/explorer_icons.png'. Physical path: 'N/A'
+INFO  2018-04-18 14:36:33,621 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.3975ms 200 image/png
+INFO  2018-04-18 14:37:32,314 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524033452292  
+INFO  2018-04-18 14:37:32,315 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:32,315 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3909ms 204 
+INFO  2018-04-18 14:37:32,318 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524033452292  
+INFO  2018-04-18 14:37:32,319 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:32,320 [16   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:37:32,320 [16   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:37:32,332 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:32,335 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:37:32,668 [13   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 14:37:32,719 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 387.2745ms
+INFO  2018-04-18 14:37:32,720 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 401.2384ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:37:39,650 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524033459586  
+INFO  2018-04-18 14:37:39,651 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:39,651 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4503ms 204 
+INFO  2018-04-18 14:37:39,654 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524033459586  
+INFO  2018-04-18 14:37:39,654 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:39,655 [16   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:37:39,655 [16   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:37:39,662 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:39,664 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:37:39,691 [13   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 14:37:39,692 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 29.6704ms
+INFO  2018-04-18 14:37:39,692 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.0067ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:37:44,755 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524033464646  
+INFO  2018-04-18 14:37:44,755 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:44,755 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.463ms 204 
+INFO  2018-04-18 14:37:44,761 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524033464646  
+INFO  2018-04-18 14:37:44,761 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:44,762 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:37:44,762 [17   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:37:44,773 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:44,775 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:37:44,799 [8    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 14:37:44,800 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 27.4448ms
+INFO  2018-04-18 14:37:44,800 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.4889ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:37:55,633 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-04-18 14:37:55,633 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:55,633 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.621ms 204 
+INFO  2018-04-18 14:37:55,639 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2018-04-18 14:37:55,639 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:55,639 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:37:55,640 [17   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:37:55,647 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:55,653 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Controllers.TokenAuthController.Authenticate (Sample.Web.Core) with arguments (Sample.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-04-18 14:37:55,705 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:37:55,705 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Controllers.TokenAuthController.Authenticate (Sample.Web.Core) in 57.9404ms
+INFO  2018-04-18 14:37:55,705 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.463ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:37:59,015 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524033478994  
+INFO  2018-04-18 14:37:59,015 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:59,016 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4453ms 204 
+INFO  2018-04-18 14:37:59,019 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524033478994  
+INFO  2018-04-18 14:37:59,020 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:59,021 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:37:59,021 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:37:59,029 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:37:59,032 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:37:59,058 [17   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 14:37:59,059 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 29.6135ms
+INFO  2018-04-18 14:37:59,059 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.9778ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:39:10,851 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524033550834  
+INFO  2018-04-18 14:39:10,852 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:39:10,852 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4434ms 204 
+INFO  2018-04-18 14:39:10,856 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524033550834  
+INFO  2018-04-18 14:39:10,857 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:39:10,857 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:39:10,858 [8    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:39:10,864 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:39:10,866 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:39:10,892 [16   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 14:39:10,892 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 28.0992ms
+INFO  2018-04-18 14:39:10,892 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.1764ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:46:22,655 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524033982616  
+INFO  2018-04-18 14:46:22,656 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:46:22,656 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4179ms 204 
+INFO  2018-04-18 14:46:22,661 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524033982616  
+INFO  2018-04-18 14:46:22,661 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:46:22,662 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:46:22,662 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:46:22,679 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:46:22,702 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:46:22,720 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524033982702  
+INFO  2018-04-18 14:46:22,720 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:46:22,721 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4217ms 204 
+INFO  2018-04-18 14:46:22,725 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524033982702  
+INFO  2018-04-18 14:46:22,725 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:46:22,726 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:46:22,726 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:46:22,733 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:46:22,735 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:46:22,742 [16   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:46:22,752 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 73.0305ms
+INFO  2018-04-18 14:46:22,753 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 91.8465ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:46:22,763 [17   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 14:46:22,764 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 30.8479ms
+INFO  2018-04-18 14:46:22,764 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.679ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:46:23,379 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524033983300&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 14:46:23,379 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:46:23,379 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3865ms 204 
+INFO  2018-04-18 14:46:23,410 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524033983300&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 14:46:23,411 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:46:23,411 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:46:23,411 [18   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:46:23,426 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:46:23,496 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 14:46:23,694 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:46:23,701 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 275.6849ms
+INFO  2018-04-18 14:46:23,702 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 291.5111ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:50:15,708 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524034215672  
+INFO  2018-04-18 14:50:15,709 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:50:15,709 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5084ms 204 
+INFO  2018-04-18 14:50:15,713 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524034215672  
+INFO  2018-04-18 14:50:15,714 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:50:15,714 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:50:15,715 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:50:15,723 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:50:15,727 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:50:15,731 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:50:15,732 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 9.2636ms
+INFO  2018-04-18 14:50:15,732 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.9484ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:50:15,791 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524034215770  
+INFO  2018-04-18 14:50:15,791 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:50:15,792 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4201ms 204 
+INFO  2018-04-18 14:50:15,796 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524034215770  
+INFO  2018-04-18 14:50:15,796 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:50:15,797 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:50:15,797 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:50:15,806 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:50:15,809 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:50:15,834 [17   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 14:50:15,835 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 28.1608ms
+INFO  2018-04-18 14:50:15,835 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.2109ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:50:16,441 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524034216396&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 14:50:16,442 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:50:16,442 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4854ms 204 
+INFO  2018-04-18 14:50:16,447 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524034216396&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 14:50:16,447 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:50:16,448 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:50:16,448 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:50:16,455 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:50:16,457 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 14:50:16,479 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:50:16,480 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 25.0196ms
+INFO  2018-04-18 14:50:16,480 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.1242ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:56:43,577 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524034603556  
+INFO  2018-04-18 14:56:43,577 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:56:43,577 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5312ms 204 
+INFO  2018-04-18 14:56:43,581 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524034603556  
+INFO  2018-04-18 14:56:43,582 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:56:43,583 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:56:43,583 [18   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:56:43,591 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:56:43,598 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:56:43,670 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524034603644  
+INFO  2018-04-18 14:56:43,670 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:56:43,670 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4326ms 204 
+INFO  2018-04-18 14:56:43,674 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524034603644  
+INFO  2018-04-18 14:56:43,674 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:56:43,675 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:56:43,675 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:56:43,682 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:56:43,684 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:56:43,880 [18   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:56:43,880 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 289.7381ms
+INFO  2018-04-18 14:56:43,881 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 299.3889ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:56:43,932 [13   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 14:56:43,933 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 250.2214ms
+INFO  2018-04-18 14:56:43,933 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 258.9638ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:56:44,499 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524034604386&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 14:56:44,499 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:56:44,500 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4898ms 204 
+INFO  2018-04-18 14:56:44,504 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524034604386&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 14:56:44,504 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:56:44,505 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:56:44,505 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:56:44,514 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:56:44,516 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 14:56:45,577 [17   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:56:45,578 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 1064.1117ms
+INFO  2018-04-18 14:56:45,578 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1074.4014ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:58:56,185 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524034736166  
+INFO  2018-04-18 14:58:56,186 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:58:56,186 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3971ms 204 
+INFO  2018-04-18 14:58:56,190 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524034736166  
+INFO  2018-04-18 14:58:56,190 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:58:56,191 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:58:56,191 [8    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:58:56,200 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:58:56,204 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:58:56,266 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:58:56,267 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 66.9562ms
+INFO  2018-04-18 14:58:56,267 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.0176ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:58:56,287 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524034736256  
+INFO  2018-04-18 14:58:56,287 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:58:56,287 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5249ms 204 
+INFO  2018-04-18 14:58:56,293 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524034736256  
+INFO  2018-04-18 14:58:56,293 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:58:56,294 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:58:56,294 [17   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:58:56,303 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:58:56,305 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:58:56,385 [6    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 14:58:56,385 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 82.0563ms
+INFO  2018-04-18 14:58:56,386 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 92.6999ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:58:57,035 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524034736966&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 14:58:57,035 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:58:57,035 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4375ms 204 
+INFO  2018-04-18 14:58:57,039 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524034736966&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 14:58:57,040 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:58:57,040 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:58:57,040 [18   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:58:57,047 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:58:57,051 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 14:58:57,280 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:58:57,281 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 233.3209ms
+INFO  2018-04-18 14:58:57,281 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 242.0008ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:59:50,531 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524034790492  
+INFO  2018-04-18 14:59:50,531 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:59:50,531 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5097ms 204 
+INFO  2018-04-18 14:59:50,536 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524034790492  
+INFO  2018-04-18 14:59:50,536 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:59:50,537 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:59:50,537 [17   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:59:50,547 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:59:50,553 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:59:50,560 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:59:50,560 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 13.9449ms
+INFO  2018-04-18 14:59:50,561 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.8063ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:59:50,608 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524034790590  
+INFO  2018-04-18 14:59:50,608 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:59:50,608 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5047ms 204 
+INFO  2018-04-18 14:59:50,613 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524034790590  
+INFO  2018-04-18 14:59:50,613 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:59:50,614 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:59:50,614 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:59:50,622 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:59:50,623 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 14:59:50,652 [18   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 14:59:50,652 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 30.9185ms
+INFO  2018-04-18 14:59:50,653 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.8388ms 200 application/json; charset=utf-8
+INFO  2018-04-18 14:59:51,313 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524034791194&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 14:59:51,313 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:59:51,313 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3993ms 204 
+INFO  2018-04-18 14:59:51,317 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524034791194&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 14:59:51,317 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:59:51,318 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 14:59:51,318 [8    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 14:59:51,325 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 14:59:51,327 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 14:59:51,358 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 14:59:51,358 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 33.2567ms
+INFO  2018-04-18 14:59:51,358 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.108ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:00:51,502 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524034851480  
+INFO  2018-04-18 15:00:51,502 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:00:51,502 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4456ms 204 
+INFO  2018-04-18 15:00:51,507 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524034851480  
+INFO  2018-04-18 15:00:51,507 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:00:51,508 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:00:51,508 [14   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:00:51,518 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:00:51,522 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:00:51,532 [16   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:00:51,532 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 14.3853ms
+INFO  2018-04-18 15:00:51,532 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.6727ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:00:51,601 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524034851584  
+INFO  2018-04-18 15:00:51,602 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:00:51,602 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3937ms 204 
+INFO  2018-04-18 15:00:51,605 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524034851584  
+INFO  2018-04-18 15:00:51,605 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:00:51,606 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:00:51,606 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:00:51,613 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:00:51,615 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:00:51,646 [5    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 15:00:51,647 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 33.3711ms
+INFO  2018-04-18 15:00:51,647 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.843ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:00:52,411 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524034852298&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:00:52,412 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:00:52,412 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.426ms 204 
+INFO  2018-04-18 15:00:52,451 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524034852298&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:00:52,451 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:00:52,452 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:00:52,452 [8    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:00:52,458 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:00:52,462 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 15:00:52,497 [16   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:00:52,497 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 38.6592ms
+INFO  2018-04-18 15:00:52,497 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.1203ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:02:15,117 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524034935092  
+INFO  2018-04-18 15:02:15,117 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:02:15,117 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4027ms 204 
+INFO  2018-04-18 15:02:15,121 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524034935092  
+INFO  2018-04-18 15:02:15,121 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:02:15,122 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:02:15,122 [17   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:02:15,130 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:02:15,136 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:02:15,146 [18   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:02:15,147 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 17.2077ms
+INFO  2018-04-18 15:02:15,147 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.1056ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:02:15,206 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524034935190  
+INFO  2018-04-18 15:02:15,206 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:02:15,206 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4394ms 204 
+INFO  2018-04-18 15:02:15,210 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524034935190  
+INFO  2018-04-18 15:02:15,211 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:02:15,212 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:02:15,212 [17   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:02:15,222 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:02:15,224 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:02:15,250 [6    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 15:02:15,250 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 27.9067ms
+INFO  2018-04-18 15:02:15,250 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.1019ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:02:15,851 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524034935796&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:02:15,852 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:02:15,852 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5293ms 204 
+INFO  2018-04-18 15:02:15,856 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524034935796&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:02:15,857 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:02:15,857 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:02:15,857 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:02:15,865 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:02:15,868 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 15:02:15,898 [16   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:02:15,899 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 34.231ms
+INFO  2018-04-18 15:02:15,899 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.8273ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:04:12,718 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524035052694  
+INFO  2018-04-18 15:04:12,719 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:12,719 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3806ms 204 
+INFO  2018-04-18 15:04:12,723 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524035052694  
+INFO  2018-04-18 15:04:12,723 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:12,724 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:04:12,724 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:04:12,731 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:12,735 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:04:12,742 [18   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:04:12,742 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 11.3468ms
+INFO  2018-04-18 15:04:12,743 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.8786ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:04:12,804 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524035052786  
+INFO  2018-04-18 15:04:12,804 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:12,804 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4338ms 204 
+INFO  2018-04-18 15:04:12,808 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524035052786  
+INFO  2018-04-18 15:04:12,808 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:12,809 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:04:12,809 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:04:12,815 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:12,817 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:04:12,844 [13   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 15:04:12,844 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 29.0344ms
+INFO  2018-04-18 15:04:12,845 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.283ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:04:13,450 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524035053398&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:04:13,450 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:13,450 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3324ms 204 
+INFO  2018-04-18 15:04:13,453 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524035053398&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:04:13,453 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:13,454 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:04:13,454 [17   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:04:13,460 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:13,464 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 15:04:13,496 [8    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:04:13,496 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 35.968ms
+INFO  2018-04-18 15:04:13,497 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.4602ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:04:38,909 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/create  
+INFO  2018-04-18 15:04:38,909 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:38,909 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.385ms 204 
+INFO  2018-04-18 15:04:38,915 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/user/create application/json 146
+INFO  2018-04-18 15:04:38,916 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:38,916 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:04:38,916 [17   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:04:38,928 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+WARN  2018-04-18 15:04:38,969 [8    ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+WARN  2018-04-18 15:04:38,972 [8    ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2018-04-18 15:04:38,972 [8    ] Mvc.ExceptionHandling.AbpExceptionFilter -  (roleNames)
+INFO  2018-04-18 15:04:38,973 [8    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:04:38,973 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.Create (Sample.Application) in 44.7624ms
+INFO  2018-04-18 15:04:38,973 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.086ms 400 application/json; charset=utf-8
+INFO  2018-04-18 15:04:43,998 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/create  
+INFO  2018-04-18 15:04:43,999 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:43,999 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4207ms 204 
+INFO  2018-04-18 15:04:44,003 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/user/create application/json 146
+INFO  2018-04-18 15:04:44,003 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:04:44,004 [16   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:04:44,004 [16   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:04:44,010 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+WARN  2018-04-18 15:04:44,025 [5    ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.<OnActionExecutionAsync>d__3.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+WARN  2018-04-18 15:04:44,028 [5    ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2018-04-18 15:04:44,028 [5    ] Mvc.ExceptionHandling.AbpExceptionFilter -  (roleNames)
+INFO  2018-04-18 15:04:44,029 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:04:44,029 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.Create (Sample.Application) in 18.3196ms
+INFO  2018-04-18 15:04:44,029 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.8071ms 400 application/json; charset=utf-8
+INFO  2018-04-18 15:07:08,801 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524035228782  
+INFO  2018-04-18 15:07:08,801 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:08,801 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3924ms 204 
+INFO  2018-04-18 15:07:08,806 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524035228782  
+INFO  2018-04-18 15:07:08,806 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:08,807 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:07:08,807 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:07:08,824 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:08,828 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:07:08,835 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:07:08,835 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 11.222ms
+INFO  2018-04-18 15:07:08,835 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.9289ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:07:08,884 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524035228870  
+INFO  2018-04-18 15:07:08,885 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:08,885 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5411ms 204 
+INFO  2018-04-18 15:07:08,889 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524035228870  
+INFO  2018-04-18 15:07:08,889 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:08,890 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:07:08,890 [17   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:07:08,896 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:08,898 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:07:08,920 [16   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 15:07:08,921 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 24.5668ms
+INFO  2018-04-18 15:07:08,921 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.4051ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:07:30,661 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524035250594  
+INFO  2018-04-18 15:07:30,661 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:30,661 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4945ms 204 
+INFO  2018-04-18 15:07:30,666 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524035250594  
+INFO  2018-04-18 15:07:30,666 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:30,667 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:07:30,667 [8    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:07:30,676 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:30,684 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:07:30,689 [8    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:07:30,689 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 12.4493ms
+INFO  2018-04-18 15:07:30,689 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.4667ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:07:30,727 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524035250702  
+INFO  2018-04-18 15:07:30,727 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:30,727 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4257ms 204 
+INFO  2018-04-18 15:07:30,731 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524035250702  
+INFO  2018-04-18 15:07:30,732 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:30,733 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:07:30,733 [18   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:07:30,743 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:30,745 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:07:30,771 [14   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 15:07:30,771 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 28.307ms
+INFO  2018-04-18 15:07:30,772 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.3629ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:07:31,427 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524035251364&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:07:31,427 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:31,427 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5644ms 204 
+INFO  2018-04-18 15:07:31,432 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524035251364&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:07:31,432 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:31,433 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:07:31,433 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:07:31,440 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:31,443 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 15:07:31,476 [8    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:07:31,476 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 36.7101ms
+INFO  2018-04-18 15:07:31,477 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.2028ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:07:52,159 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/create  
+INFO  2018-04-18 15:07:52,159 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:52,160 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4291ms 204 
+INFO  2018-04-18 15:07:52,166 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/user/create application/json 148
+INFO  2018-04-18 15:07:52,166 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:52,167 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:07:52,167 [17   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:07:52,176 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:52,202 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.Create (Sample.Application) with arguments (Sample.Users.Dto.CreateUserDto) - ModelState is Valid
+INFO  2018-04-18 15:07:52,397 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:07:52,397 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.Create (Sample.Application) in 221.5465ms
+INFO  2018-04-18 15:07:52,397 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 231.3379ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:07:52,648 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524035272574&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:07:52,649 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:52,649 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4459ms 204 
+INFO  2018-04-18 15:07:52,653 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524035272574&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:07:52,653 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:52,654 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:07:52,654 [17   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:07:52,663 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:07:52,667 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 15:07:52,703 [17   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:07:52,703 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 39.4081ms
+INFO  2018-04-18 15:07:52,703 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.0592ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:08:57,338 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524035337286  
+INFO  2018-04-18 15:08:57,339 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:08:57,339 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4229ms 204 
+INFO  2018-04-18 15:08:57,344 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524035337286  
+INFO  2018-04-18 15:08:57,344 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:08:57,345 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:08:57,346 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:08:57,354 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:08:57,359 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:08:57,366 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:08:57,367 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 12.8735ms
+INFO  2018-04-18 15:08:57,367 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.7362ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:08:57,404 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524035337388  
+INFO  2018-04-18 15:08:57,405 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:08:57,405 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4369ms 204 
+INFO  2018-04-18 15:08:57,408 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524035337388  
+INFO  2018-04-18 15:08:57,409 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:08:57,409 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:08:57,409 [14   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:08:57,418 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:08:57,420 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:08:57,452 [18   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 15:08:57,452 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 34.2985ms
+INFO  2018-04-18 15:08:57,453 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.4103ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:08:58,085 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524035337874&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:08:58,085 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:08:58,085 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.552ms 204 
+INFO  2018-04-18 15:08:58,090 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524035337874&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:08:58,090 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:08:58,091 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:08:58,091 [17   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:08:58,097 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:08:58,099 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 15:08:58,132 [8    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:08:58,133 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 35.4944ms
+INFO  2018-04-18 15:08:58,133 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.1672ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:10:30,792 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524035430770  
+INFO  2018-04-18 15:10:30,792 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:10:30,792 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3694ms 204 
+INFO  2018-04-18 15:10:30,796 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524035430770  
+INFO  2018-04-18 15:10:30,797 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:10:30,797 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:10:30,797 [14   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:10:30,806 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:10:30,811 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:10:30,817 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:10:30,817 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 11.6061ms
+INFO  2018-04-18 15:10:30,818 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.374ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:10:30,882 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524035430866  
+INFO  2018-04-18 15:10:30,883 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:10:30,883 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4431ms 204 
+INFO  2018-04-18 15:10:30,886 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524035430866  
+INFO  2018-04-18 15:10:30,886 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:10:30,887 [16   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:10:30,887 [16   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:10:30,895 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:10:30,897 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:10:30,922 [13   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 15:10:30,922 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 27.5316ms
+INFO  2018-04-18 15:10:30,923 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.6118ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:10:31,533 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524035431490&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:10:31,533 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:10:31,533 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3819ms 204 
+INFO  2018-04-18 15:10:31,537 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524035431490&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:10:31,537 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:10:31,538 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:10:31,538 [14   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:10:31,546 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:10:31,549 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 15:10:31,584 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:10:31,585 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 38.5609ms
+INFO  2018-04-18 15:10:31,585 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.0675ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:13:52,292 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524035632268  
+INFO  2018-04-18 15:13:52,292 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:13:52,292 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4403ms 204 
+INFO  2018-04-18 15:13:52,297 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations?_dc=1524035632268  
+INFO  2018-04-18 15:13:52,297 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:13:52,298 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:13:52,298 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:13:52,305 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:13:52,311 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:13:52,317 [16   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:13:52,317 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Sessions.SessionAppService.GetCurrentLoginInformations (Sample.Application) in 12.4434ms
+INFO  2018-04-18 15:13:52,318 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.2387ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:13:52,391 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524035632370  
+INFO  2018-04-18 15:13:52,391 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:13:52,392 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4394ms 204 
+INFO  2018-04-18 15:13:52,395 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll?_dc=1524035632370  
+INFO  2018-04-18 15:13:52,395 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:13:52,396 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:13:52,397 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:13:52,405 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:13:52,407 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-18 15:13:52,434 [14   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-18 15:13:52,435 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 29.5115ms
+INFO  2018-04-18 15:13:52,435 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.8709ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:13:53,060 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524035632994&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:13:53,060 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:13:53,060 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.45ms 204 
+INFO  2018-04-18 15:13:53,064 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524035632994&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:13:53,064 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:13:53,065 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:13:53,065 [8    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:13:53,073 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:13:53,076 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 15:13:53,112 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:13:53,113 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 39.2072ms
+INFO  2018-04-18 15:13:53,113 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.9106ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:14:17,372 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/create  
+INFO  2018-04-18 15:14:17,373 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:14:17,373 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5025ms 204 
+INFO  2018-04-18 15:14:17,377 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/user/create application/json 151
+INFO  2018-04-18 15:14:17,377 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:14:17,378 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:14:17,378 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:14:17,387 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:14:17,403 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.Create (Sample.Application) with arguments (Sample.Users.Dto.CreateUserDto) - ModelState is Valid
+INFO  2018-04-18 15:14:17,495 [16   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:14:17,495 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.Create (Sample.Application) in 108.1461ms
+INFO  2018-04-18 15:14:17,496 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.4679ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:14:17,711 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524035657690&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:14:17,711 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:14:17,711 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4997ms 204 
+INFO  2018-04-18 15:14:17,716 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524035657690&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:14:17,716 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:14:17,717 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:14:17,717 [14   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:14:17,723 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:14:17,726 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 15:14:17,759 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:14:17,759 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 35.6436ms
+INFO  2018-04-18 15:14:17,759 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.4901ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:14:25,087 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/update  
+INFO  2018-04-18 15:14:25,087 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:14:25,087 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4839ms 204 
+INFO  2018-04-18 15:14:25,092 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:21021/api/services/app/user/update application/json 145
+INFO  2018-04-18 15:14:25,092 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:14:25,093 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:14:25,093 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:14:25,106 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:14:25,138 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.Update (Sample.Application) with arguments (Sample.Users.Dto.UserDto) - ModelState is Valid
+INFO  2018-04-18 15:14:25,329 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:14:25,329 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.Update (Sample.Application) in 223.1506ms
+INFO  2018-04-18 15:14:25,329 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 237.9033ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:14:25,608 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524035665560&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:14:25,608 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:14:25,609 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3449ms 204 
+INFO  2018-04-18 15:14:25,612 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524035665560&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:14:25,613 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:14:25,614 [16   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:14:25,614 [16   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:14:25,621 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:14:25,624 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-18 15:14:25,647 [18   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:14:25,647 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 26.1952ms
+INFO  2018-04-18 15:14:25,648 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.3986ms 200 application/json; charset=utf-8
+DEBUG 2018-04-18 15:49:27,880 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-18 15:49:27,953 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-04-18 15:49:27,995 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.Web.Host.Startup.SampleWebHostModule, Sample.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:27,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.SampleWebCoreModule, Sample.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:27,999 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.SampleApplicationModule, Sample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:27,999 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.SampleCoreModule, Sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:27,999 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:28,000 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:28,000 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:28,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:28,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.EntityFrameworkCore.SampleEntityFrameworkModule, Sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:28,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:28,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:28,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:28,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:28,003 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:28,003 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:28,007 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-04-18 15:49:28,098 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-18 15:49:28,098 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-18 15:49:28,098 [1    ] o.Configuration.LanguageManagementConfig - Converted Sample (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-18 15:49:28,098 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-18 15:49:28,507 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Sample.EntityFrameworkCore.SampleDbContext, Sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 15:49:29,059 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-18 15:49:29,116 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-18 15:49:29,164 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-18 15:49:29,186 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sample
+DEBUG 2018-04-18 15:49:29,219 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-18 15:49:29,261 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-18 15:49:29,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-04-18 15:49:29,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-18 15:49:29,319 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Users.Dto.CreateOrUpdateUserInputDto
+DEBUG 2018-04-18 15:49:29,320 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Users.Dto.UserDto
+DEBUG 2018-04-18 15:49:29,320 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-18 15:49:29,320 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-18 15:49:29,320 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-18 15:49:29,320 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Roles.Dto.PermissionDto
+DEBUG 2018-04-18 15:49:29,320 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.Roles.Dto.RoleDto
+DEBUG 2018-04-18 15:49:29,321 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-18 15:49:29,321 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sample.MultiTenancy.Dto.TenantDto
+INFO  2018-04-18 15:49:31,411 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/create  
+INFO  2018-04-18 15:49:31,429 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:31,435 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.6664ms 204 
+INFO  2018-04-18 15:49:31,443 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/user/create application/json 151
+INFO  2018-04-18 15:49:31,445 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:31,517 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:31,524 [15   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:32,470 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:32,957 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.Create (Sample.Application) with arguments (Sample.Users.Dto.CreateOrUpdateUserInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:33,449 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:33,479 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.Create (Sample.Application) in 1005.0112ms
+INFO  2018-04-18 15:49:33,485 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2042.2669ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:33,750 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037773684&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:33,750 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:33,750 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7672ms 204 
+INFO  2018-04-18 15:49:33,816 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037773684&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:33,816 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:33,819 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:33,819 [15   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:33,842 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:33,875 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:34,495 [12   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:34,500 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 657.7416ms
+INFO  2018-04-18 15:49:34,500 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 684.2802ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:36,525 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/checkchange  
+INFO  2018-04-18 15:49:36,525 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:36,526 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4599ms 204 
+INFO  2018-04-18 15:49:36,530 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/user/checkchange application/json 27
+INFO  2018-04-18 15:49:36,531 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:36,532 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:36,532 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:36,544 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:36,558 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.CheckChange (Sample.Application) with arguments (Sample.Dto.CheckChangeInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:36,623 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:36,623 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.CheckChange (Sample.Application) in 79.6105ms
+INFO  2018-04-18 15:49:36,624 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 93.3291ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:37,377 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/checkchange  
+INFO  2018-04-18 15:49:37,377 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:37,377 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4711ms 204 
+INFO  2018-04-18 15:49:37,381 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/user/checkchange application/json 27
+INFO  2018-04-18 15:49:37,381 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:37,382 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:37,382 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:37,390 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:37,399 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.CheckChange (Sample.Application) with arguments (Sample.Dto.CheckChangeInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:37,421 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:37,421 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.CheckChange (Sample.Application) in 31.5865ms
+INFO  2018-04-18 15:49:37,421 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.3766ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:39,687 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037779674&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:49:39,687 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:39,687 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4466ms 204 
+INFO  2018-04-18 15:49:39,691 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037779674&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:49:39,691 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:39,692 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:39,692 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:39,701 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:39,712 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:39,756 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:39,757 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 55.6489ms
+INFO  2018-04-18 15:49:39,757 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.8164ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:41,246 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037781232&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:41,246 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:41,246 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3965ms 204 
+INFO  2018-04-18 15:49:41,251 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037781232&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:41,251 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:41,252 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:41,252 [15   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:41,259 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:41,268 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:41,287 [15   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:41,287 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 27.9732ms
+INFO  2018-04-18 15:49:41,288 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.474ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:44,893 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037784882&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:49:44,894 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:44,894 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.515ms 204 
+INFO  2018-04-18 15:49:44,898 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037784882&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:49:44,898 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:44,900 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:44,900 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:44,909 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:44,920 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:44,934 [12   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:44,934 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 25.5493ms
+INFO  2018-04-18 15:49:44,935 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.5487ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:45,549 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037785538&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:45,549 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:45,550 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4994ms 204 
+INFO  2018-04-18 15:49:45,554 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037785538&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22userName%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:45,554 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:45,555 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:45,555 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:45,562 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:45,572 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:45,586 [15   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:45,586 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 24.2819ms
+INFO  2018-04-18 15:49:45,587 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.0063ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:52,388 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037792370&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22name%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:52,389 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:52,389 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5172ms 204 
+INFO  2018-04-18 15:49:52,395 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037792370&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22name%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:52,395 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:52,396 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:52,396 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:52,404 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:52,415 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:52,454 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:52,454 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 49.5955ms
+INFO  2018-04-18 15:49:52,454 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.3477ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:53,066 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037793050&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22name%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:49:53,066 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:53,066 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3648ms 204 
+INFO  2018-04-18 15:49:53,071 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037793050&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22name%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:49:53,071 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:53,071 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:53,072 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:53,079 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:53,089 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:53,129 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:53,130 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 51.0202ms
+INFO  2018-04-18 15:49:53,130 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.5502ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:54,293 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037794276&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22name%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:54,293 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:54,293 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.44ms 204 
+INFO  2018-04-18 15:49:54,298 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037794276&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22name%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:54,298 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:54,299 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:54,299 [15   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:54,305 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:54,314 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:54,331 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:54,331 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 25.9924ms
+INFO  2018-04-18 15:49:54,332 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.995ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:55,557 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037795544&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22surname%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:55,557 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:55,557 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5411ms 204 
+INFO  2018-04-18 15:49:55,562 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037795544&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22surname%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:55,562 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:55,563 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:55,563 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:55,572 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:55,581 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:55,621 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:55,621 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 49.003ms
+INFO  2018-04-18 15:49:55,621 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.492ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:56,119 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037796106&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22surname%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:49:56,119 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:56,119 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4058ms 204 
+INFO  2018-04-18 15:49:56,124 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037796106&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22surname%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:49:56,124 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:56,125 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:56,125 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:56,133 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:56,141 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:56,182 [15   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:56,182 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 49.5435ms
+INFO  2018-04-18 15:49:56,183 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.9817ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:56,886 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037796872&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22emailAddress%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:56,886 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:56,886 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4494ms 204 
+INFO  2018-04-18 15:49:56,891 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037796872&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22emailAddress%22%2C%22direction%22%3A%22ASC%22%7D%5D  
+INFO  2018-04-18 15:49:56,891 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:56,892 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:56,892 [12   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:56,899 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:56,909 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:56,950 [15   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:56,951 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 51.8636ms
+INFO  2018-04-18 15:49:56,951 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.7197ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:49:57,489 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037797478&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22emailAddress%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:49:57,489 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:57,490 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.506ms 204 
+INFO  2018-04-18 15:49:57,494 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037797478&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22emailAddress%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:49:57,494 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:57,495 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:49:57,495 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:49:57,501 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:49:57,511 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:49:57,552 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:49:57,552 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 51.0684ms
+INFO  2018-04-18 15:49:57,553 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.741ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:50:07,471 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/update  
+INFO  2018-04-18 15:50:07,471 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:07,471 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3844ms 204 
+INFO  2018-04-18 15:50:07,475 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:21021/api/services/app/user/update application/json 153
+INFO  2018-04-18 15:50:07,475 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:07,476 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:50:07,476 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:50:07,489 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:07,499 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.Update (Sample.Application) with arguments (Sample.Users.Dto.CreateOrUpdateUserInputDto) - ModelState is Valid
+INFO  2018-04-18 15:50:07,579 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:50:07,580 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.Update (Sample.Application) in 90.8174ms
+INFO  2018-04-18 15:50:07,580 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 104.9763ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:50:07,780 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037807768&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22emailAddress%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:50:07,780 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:07,780 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4257ms 204 
+INFO  2018-04-18 15:50:07,785 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037807768&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22emailAddress%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:50:07,785 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:07,786 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:50:07,786 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:50:07,793 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:07,802 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:50:07,818 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:50:07,819 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 25.3561ms
+INFO  2018-04-18 15:50:07,819 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.2708ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:50:11,870 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037811856&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22emailAddress%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:50:11,870 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:11,870 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5529ms 204 
+INFO  2018-04-18 15:50:11,875 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037811856&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22emailAddress%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:50:11,875 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:11,876 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:50:11,876 [12   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:50:11,884 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:11,892 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:50:11,907 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:50:11,907 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 23.1256ms
+INFO  2018-04-18 15:50:11,907 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.4474ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:50:16,089 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/delete  
+INFO  2018-04-18 15:50:16,089 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:16,089 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4323ms 204 
+INFO  2018-04-18 15:50:16,094 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DELETE http://localhost:21021/api/services/app/User/delete application/x-www-form-urlencoded; charset=UTF-8 9
+INFO  2018-04-18 15:50:16,094 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:16,095 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:50:16,095 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:50:16,111 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:16,148 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.Delete (Sample.Application) with arguments (Sample.Dto.DeleteInputDto) - ModelState is Valid
+INFO  2018-04-18 15:50:16,352 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:50:16,355 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.Delete (Sample.Application) in 244.2606ms
+INFO  2018-04-18 15:50:16,355 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 261.2276ms 200 application/json; charset=utf-8
+INFO  2018-04-18 15:50:16,529 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/user/getAll?_dc=1524037816448&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22emailAddress%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:50:16,529 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:16,529 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4926ms 204 
+INFO  2018-04-18 15:50:16,533 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/user/getAll?_dc=1524037816448&page=1&SkipCount=0&MaxResultCount=100&Sorting=%5B%7B%22property%22%3A%22emailAddress%22%2C%22direction%22%3A%22DESC%22%7D%5D  
+INFO  2018-04-18 15:50:16,533 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:16,534 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-18 15:50:16,534 [14   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-18 15:50:16,544 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-18 15:50:16,558 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sample.Users.UserAppService.GetAll (Sample.Application) with arguments (Sample.Dto.GetAllInputDto) - ModelState is Valid
+INFO  2018-04-18 15:50:16,602 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-18 15:50:16,603 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sample.Users.UserAppService.GetAll (Sample.Application) in 58.443ms
+INFO  2018-04-18 15:50:16,603 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.3764ms 200 application/json; charset=utf-8

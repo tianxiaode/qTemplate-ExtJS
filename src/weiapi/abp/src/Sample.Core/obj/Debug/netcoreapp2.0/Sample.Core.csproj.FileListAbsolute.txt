@@ -1,0 +1,9 @@
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\bin\Debug\netcoreapp2.0\Sample.Core.deps.json
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\bin\Debug\netcoreapp2.0\Sample.Core.dll
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\bin\Debug\netcoreapp2.0\Sample.Core.pdb
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\obj\Debug\netcoreapp2.0\Sample.Core.csproj.CoreCompileInputs.cache
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\obj\Debug\netcoreapp2.0\Sample.Core.AssemblyInfoInputs.cache
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\obj\Debug\netcoreapp2.0\Sample.Core.AssemblyInfo.cs
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\obj\Debug\netcoreapp2.0\Sample.Core.dll
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\obj\Debug\netcoreapp2.0\Sample.Core.pdb

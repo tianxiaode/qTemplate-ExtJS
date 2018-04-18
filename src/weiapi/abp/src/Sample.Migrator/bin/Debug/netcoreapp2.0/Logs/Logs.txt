@@ -1,0 +1,59 @@
+﻿DEBUG 2018-04-18 14:20:23,843 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-18 14:20:23,998 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2018-04-18 14:20:24,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.Migrator.SampleMigratorModule, Sample.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:20:24,247 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.EntityFrameworkCore.SampleEntityFrameworkModule, Sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:20:24,247 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.SampleCoreModule, Sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:20:24,248 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:20:24,248 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:20:24,248 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:20:24,249 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:20:24,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:20:24,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:20:24,254 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2018-04-18 14:20:24,785 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Sample.EntityFrameworkCore.SampleDbContext, Sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:20:25,686 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-18 14:20:25,748 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-18 14:20:25,799 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-18 14:20:25,824 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sample
+DEBUG 2018-04-18 14:21:03,021 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-18 14:21:03,166 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2018-04-18 14:21:03,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.Migrator.SampleMigratorModule, Sample.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:21:03,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.EntityFrameworkCore.SampleEntityFrameworkModule, Sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:21:03,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.SampleCoreModule, Sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:21:03,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:21:03,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:21:03,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:21:03,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:21:03,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:21:03,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:21:03,456 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2018-04-18 14:21:03,878 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Sample.EntityFrameworkCore.SampleDbContext, Sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:21:04,614 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-18 14:21:04,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-18 14:21:04,748 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-18 14:21:04,770 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sample
+DEBUG 2018-04-18 14:22:01,685 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-18 14:22:01,820 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2018-04-18 14:22:02,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.Migrator.SampleMigratorModule, Sample.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:22:02,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.EntityFrameworkCore.SampleEntityFrameworkModule, Sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:22:02,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sample.SampleCoreModule, Sample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:22:02,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:22:02,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:22:02,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:22:02,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:22:02,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:22:02,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:22:02,060 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2018-04-18 14:22:02,462 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Sample.EntityFrameworkCore.SampleDbContext, Sample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-18 14:22:03,189 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-04-18 14:22:03,246 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-18 14:22:03,296 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-18 14:22:03,318 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sample
+INFO  2018-04-18 14:22:03,542 [1    ] Sample.Migrator.Log                      - Host database: server=(localdb)\mssqllocaldb;database=Sample;trusted_connection=True;multipleactiveresultsets=true
+INFO  2018-04-18 14:22:03,543 [1    ] Sample.Migrator.Log                      - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2018-04-18 14:22:06,840 [1    ] Sample.Migrator.Log                      - HOST database migration started...
+INFO  2018-04-18 14:22:20,153 [1    ] Sample.Migrator.Log                      - HOST database migration completed.
+INFO  2018-04-18 14:22:20,153 [1    ] Sample.Migrator.Log                      - --------------------------------------------------------
+INFO  2018-04-18 14:22:20,214 [1    ] Sample.Migrator.Log                      - All databases have been migrated.
+DEBUG 2018-04-18 14:22:22,006 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-04-18 14:22:22,007 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
