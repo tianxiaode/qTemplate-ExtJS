@@ -7,10 +7,6 @@
         me.doColumnCheckChange(URI.get('user','checkchange'), record, column.dataIndex);
     },
 
-    onRoleRenderer: function(value, metaData, record, rowIndex, colIndex, store, view){
-        return I18N.ValueList.roleDescription[value];
-    },
-    
     entityName: 'User',
     deleteMessageField: 'userName'
 

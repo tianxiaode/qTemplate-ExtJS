@@ -36,6 +36,7 @@ Ext.define('Admin.store.NavigationTree', {
             },
             {
                 text: '用户管理',
+                iconCls: 'x-fa fa-user',
                 viewType: 'userView',
                 leaf: true
             }
