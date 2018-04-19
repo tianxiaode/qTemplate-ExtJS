@@ -1,8 +1,8 @@
 # qTemplate - Ext JS
 
-qTemplate是一个基于Ext JS经典工具包（calssic tookit）的模版。它在admin-dashboard模版的基础上做了进一步修改，已便于快速开发。
-
 [English](README_en.md)
+
+qTemplate是一个基于Ext JS经典工具包（calssic tookit）的模版。它在admin-dashboard模版的基础上做了进一步修改，已便于快速开发。
 
 ## qTemplate的主要特点包括：
 * 字段自动从本地化文件获取标签
