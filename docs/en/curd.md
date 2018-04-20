@@ -3,7 +3,7 @@
 The base class for creating curd templates is defined under the  `src\client\packages\local\common\src\view\base` folder, and inheriting from these classes makes it easy to extend the required view with CRUD functionality.
 
 ## View Model
-```
+```javascript
 Ext.define('Admin.view.user.MainModel', {
     extend: 'Common.view.base.ViewModel',
     alias: 'viewmodel.user',
@@ -47,7 +47,7 @@ If you want to control the status of add, edit, and delete buttons based on perm
 Do not use `count` and `selection` as object names when defining data objects in the data model, because `count` is bound to the total number of records in the primary store and `selection` has been bound to a selection record for the grid.
 
 ## View Controller
-```
+```javascript
 Ext.define('Admin.view.user.MainController', {
     extend: 'Common.view.base.ViewController',
     alias: 'controller.user',
@@ -71,7 +71,7 @@ Ext.define('Admin.view.user.MainController', {
 The operation code for the curd operation has been defined in ` Common.view.base.ViewController`, so there is no need to redefine it, the simplest case being the primary definition of `entityname` and `deletemessagefield` These two property values are OK. `entityName` is primarily used to get localized information.`deletemessagefield` is used to specify which field to display in the delete confirmation dialog box. Method `OnUserCheckChange` is used to implement the value modification of the composite option in the grid. The future version should be merged into `Common.view.base.ViewController`.
 
 ## View
-```
+```javascript
 Ext.define('Admin.view.user.Main', {
     extend: 'Ext.container.Container',
     xtype: 'userView',
@@ -103,7 +103,7 @@ Ext.define('Admin.view.user.Main', {
 Because the rest of the view is not the same except for the `layout` configuration item, there is no base class defined for it, and it is simply extended from the container.
 
 ## List View
-```
+```javascript
 Ext.define('Admin.view.user.List',{
     extend: 'Common.view.base.List',
     xtype: 'userList',
@@ -121,7 +121,7 @@ Ext.define('Admin.view.user.List',{
 The main function of the list is to load the grid and secure the grid within the viewable area.
 
 ## Grid
-```
+```javascript
 Ext.define('Admin.view.user.Grid',{
     extend: 'Common.view.base.Grid',
     xtype: 'userGrid',
@@ -158,7 +158,7 @@ If a column requires a custom column header, you can set `autoText` to false in 
 The role of `doHighlightRenderer` is to highlight the query value in the field when querying. If you don't need to add a custom button to the toolbar, use the default toolbar `Common.view.base.ToolBar`. If you need to add custom components, you can derive the toolbar from `Common.view.base.ToolBar` and write the custom component in the `items` configuration item, and the action for the component is defined in the view controller. After you've written your custom toolbar, remember to change the default toolbar to a custom toolbar in the grid.
 
 ## Edit View
-```
+```javascript
 Ext.define('Admin.view.user.Edit', {
     extend: 'Common.view.base.Edit',
     xtype: 'userEdit',
@@ -211,7 +211,7 @@ If the field wants to customize the label and does not need to be automatically 
 
 ## Localized files
 To implement a field or column header to automatically obtain localized text, you need to define localized information in model, such as the following code:
-```
+```javascript
         Model: {
             User: {
                 userName: '用户名',

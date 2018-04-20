@@ -10,9 +10,10 @@ qTemplate是一个基于Ext JS经典工具包（calssic tookit）的模版。它
 * 快速CURD模版开发
 
 ## 使用方法：
-* [启动示例程序](docs/zh-cn/start.MD)
-* [登录](docs/zh-cn/login.MD)
-* [使用CRUD模版](docs/zh-cn/crud.MD)
+* [启动示例程序](docs/zh-cn/start.md)
+* [登录](docs/zh-cn/login.md)
+* [使用CRUD模版](docs/zh-cn/curd.md)
+* [设置代理（Proxy）的提交参数和读取参数](docs/zh-cn/proxy.md)
 
 ![用户列表视图](https://github.com/tianxiaode/qTemplate-ExtJS/blob/master/docs/images/userList.PNG)
 ![用户新建视图](https://github.com/tianxiaode/qTemplate-ExtJS/blob/master/docs/images/userAdd.PNG)

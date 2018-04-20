@@ -4,7 +4,7 @@
 
 
 ## 视图模型
-```
+```javascript
 Ext.define('Admin.view.user.MainModel', {
     extend: 'Common.view.base.ViewModel',
     alias: 'viewmodel.user',
@@ -47,7 +47,7 @@ Ext.define('Admin.view.user.MainModel', {
 在数据模型定义数据对象时，请不要使用`count`和`selection`来作为对象名称，因为`count`已绑定为主存储的记录总数，`selection`已绑定为网格（Grid）的选择记录。
 
 ## 视图控制器
-```
+```javascript
 Ext.define('Admin.view.user.MainController', {
     extend: 'Common.view.base.ViewController',
     alias: 'controller.user',
@@ -73,7 +73,7 @@ Ext.define('Admin.view.user.MainController', {
 方法`onUserCheckChange`是用来实现网格中复合选项的值修改的。在未来版本应该可以合并在`Common.view.base.ViewController`中。
 
 ## 视图
-```
+```javascript
 Ext.define('Admin.view.user.Main', {
     extend: 'Ext.container.Container',
     xtype: 'userView',
@@ -105,7 +105,7 @@ Ext.define('Admin.view.user.Main', {
 由于视图中除了`layout`配置项是相同的外，其余各项都是不相同的，因而没有为它定义基类，直接从容器扩展就行了。
 
 ## 列表
-```
+```javascript
 Ext.define('Admin.view.user.List',{
     extend: 'Common.view.base.List',
     xtype: 'userList',
@@ -124,7 +124,7 @@ Ext.define('Admin.view.user.List',{
 列表的主要作用是装载网格并将网格固定在可视区域之内。
 
 ## 网格
-```
+```javascript
 Ext.define('Admin.view.user.Grid',{
     extend: 'Common.view.base.Grid',
     xtype: 'userGrid',
@@ -162,7 +162,7 @@ Ext.define('Admin.view.user.Grid',{
 如果不需要在工具栏中添加自定义按钮，可使用默认的工具栏`Common.view.base.ToolBar`。如果需要添加自定义组件，可以从`Common.view.base.ToolBar`派生工具栏，并将自定义组件写在`items`配置项中，而组件所对应的操作，在视图控制器中定义就行了。写好自定义的工具栏后，记得在网格中将默认工具栏修改为自定义工具栏。
 
 ## 编辑视图
-```
+```javascript
 Ext.define('Admin.view.user.Edit', {
     extend: 'Common.view.base.Edit',
     xtype: 'userEdit',
@@ -214,7 +214,7 @@ Ext.define('Admin.view.user.Edit', {
 
 ## 本地化文件
 要实现字段或列标题自动获取本地化文本，需要将本地化信息定义在Model内，如以下代码：
-```
+```javascript
         Model: {
             User: {
                 userName: '用户名',
