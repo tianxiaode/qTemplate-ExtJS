@@ -23,7 +23,7 @@
             }
         }
         if(me.allowBlank === false){
-            me.afterLabelTextTpl = '<span style="color:red;font-weight:bold" data-qtip="Required">*</span>';
+            me.afterLabelTextTpl = '<span style="color:red;font-weight:bold">*</span>';
         }
         me.callParent();
 
