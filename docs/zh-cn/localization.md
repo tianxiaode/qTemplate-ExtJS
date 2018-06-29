@@ -42,5 +42,5 @@ Ext.onReady(function(){
 ```
 这样，就不用在`app.json`中添加本地化文件来实现本地化了。
 
-![English](https://github.com/tianxiaode/qTemplate-ExtJS/blob/master/docs/images/en.PNG)
-![中文](https://github.com/tianxiaode/qTemplate-ExtJS/blob/master/docs/images/zh-cn.PNG)
+![English](https://github.com/tianxiaode/qTemplate-ExtJS/blob/master/docs/images/en.png)
+![中文](https://github.com/tianxiaode/qTemplate-ExtJS/blob/master/docs/images/zh-cn.png)

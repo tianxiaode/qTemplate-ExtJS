@@ -43,5 +43,5 @@ In order to achieve automatic language switching, you need to modify the `index.
 This allows localization to be done without adding localized files in `App.json`.
 
 
-![English](https://github.com/tianxiaode/qTemplate-ExtJS/blob/master/docs/images/en.PNG)
-![中文](https://github.com/tianxiaode/qTemplate-ExtJS/blob/master/docs/images/zh-cn.PNG)
+![English](https://github.com/tianxiaode/qTemplate-ExtJS/blob/master/docs/images/en.png)
+![中文](https://github.com/tianxiaode/qTemplate-ExtJS/blob/master/docs/images/zh-cn.png)
