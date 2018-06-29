@@ -2,10 +2,6 @@
     singleton: true,
     alternateClassName: 'FAILED',
 
-    requires: [
-        'Common.locale.Locale'
-    ],
-
     ajax: function (response, options) {
         var title = I18N.FailedTitle;
         if (response.status === 404) {

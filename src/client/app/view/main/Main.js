@@ -49,6 +49,25 @@ Ext.define('Admin.view.main.Main', {
                     handler: 'onToggleNavigationSize'
                 },
                 '->',
+                {xtype: 'datefield'},
+                {
+                    xtype: 'segmentedbutton',
+                    iconCls:'x-fa fa-language',
+                    items: [
+                        {
+                            text: '中文',
+                            href: '/',
+                            hrefTarget: '_self',
+                            bind: {pressed: '{lang === "zh_cn"}'}
+                        },
+                        {
+                            text: 'English',
+                            href: '/?lang=en',
+                            hrefTarget: '_self',
+                            bind: {pressed: '{lang === "en"}'}
+                        }
+                    ]
+                },
                 {
                     iconCls: 'x-fa fa-key',
                     ui: 'header',

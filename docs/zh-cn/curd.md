@@ -212,9 +212,9 @@ Ext.define('Admin.view.user.Edit', {
 
 如果字段想自定义标签，不需要自动获取，可在字段定义中将`autoLabel`设置为`false`。
 
-## 本地化文件
-要实现字段或列标题自动获取本地化文本，需要将本地化信息定义在Model内，如以下代码：
-```javascript
+
+## 字段和列标题的本地化
+要实现字段或列标题自动获取本地化文本，需要将信息定义在本地化文件的Model内，如以下代码：```javascript
         Model: {
             User: {
                 userName: '用户名',
@@ -231,5 +231,4 @@ Ext.define('Admin.view.user.Edit', {
         },
 
 ```
-
 以上代码就是用户视图所需的本地化文本。具体可参考`src\client\app\locale\zh_CN.js`文件。

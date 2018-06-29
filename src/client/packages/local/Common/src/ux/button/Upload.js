@@ -14,9 +14,6 @@ Ext.define('SimpleCMS.ux.button.Upload', {
     listeners: {
         boxready: function () {
             var me = this;
-            Ext.applyIf(me.config.uploader, {
-                browse_button: me.config.id || me.getId()
-            });
 
             me.uploader = me.createUploader();
             me.uploader.initialize();

@@ -45,8 +45,12 @@
         };
     </script>
     -->
-    
     <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <script type="text/javascript">
+        var locale  =location.href.match(/lang=([\w-]+)/),
+            lang = (locale && locale[1]) || 'zh_cn';
+        document.write('<script src="resources/locale/'+ lang+'.js" type="text/javascript"><\/script>');
+    </script>
     <script type="text/javascript" src="resources/js/signalr.js"></script>
     <script id="microloader" data-app="9d99c1fb-f492-44be-986d-6999131c7531" type="text/javascript">var Ext=Ext||{};Ext.manifest=Ext.manifest||"app.json";Ext=Ext||{};
 Ext.Boot=Ext.Boot||function(f){function l(b){if(b.$isRequest)return b;b=b.url?b:{url:b};var e=b.url,e=e.charAt?[e]:e,a=b.charset||d.config.charset;x(this,b);delete this.url;this.urls=e;this.charset=a}function r(b){if(b.$isEntry)return b;var e=b.charset||d.config.charset,a=Ext.manifest,a=a&&a.loader,k=void 0!==b.cache?b.cache:a&&a.cache,c;d.config.disableCaching&&(void 0===k&&(k=!d.config.disableCaching),!1===k?c=+new Date:!0!==k&&(c=k),c&&(a=a&&a.cacheParam||d.config.disableCachingParam,c=a+"\x3d"+

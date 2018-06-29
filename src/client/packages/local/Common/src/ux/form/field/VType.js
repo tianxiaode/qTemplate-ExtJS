@@ -1,10 +1,6 @@
 ﻿Ext.define("Common.ux.form.field.VTypes", {
     override: "Ext.form.field.VTypes",
 
-    requires: [
-        'Common.locale.Locale'
-    ],
-
     daterange: function (val, field) {
         var date = field.parseDate(val);
 

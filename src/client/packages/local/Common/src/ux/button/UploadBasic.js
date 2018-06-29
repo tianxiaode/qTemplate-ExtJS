@@ -45,7 +45,7 @@ Ext.define('SimpleCMS.ux.button.UploadBasic', {
         me.owner = owner;
         Ext.apply(me, config.listeners);
         me.uploaderConfig = Ext.apply(me, config.uploader, me.configs.uploader);
-
+        me.uploaderConfig['browse_button'] = owner.getId();
         me.callParent();
     },
 

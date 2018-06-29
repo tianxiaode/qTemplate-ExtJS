@@ -2,8 +2,7 @@
     extend: 'Ext.data.Model',
 
     requires: [
-        'Ext.data.identifier.Negative',
-        'Common.locale.Locale'
+        'Ext.data.identifier.Negative'
     ],
 
     fields: [

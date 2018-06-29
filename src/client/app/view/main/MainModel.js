@@ -5,5 +5,14 @@ Ext.define('Admin.view.main.MainModel', {
     data: {
         currentView: null,
         UserName: null
+    },
+
+    formulas:{
+        lang: function(){
+            var locale  =location.href.match(/lang=([\w-]+)/),
+            lang = (locale && locale[1]) || 'zh_cn';
+            return lang.toLowerCase();
+        }
     }
+
 });

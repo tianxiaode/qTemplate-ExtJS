@@ -8,10 +8,10 @@ D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Core\bin\D
 D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Core\bin\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.pdb
 D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Core\bin\Debug\netcoreapp2.0\Sample.EntityFrameworkCore.dll.config
 D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Core\bin\Debug\netcoreapp2.0\Sample.Core.pdb
-D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Core\obj\Debug\netcoreapp2.0\Sample.Web.Core.csprojResolveAssemblyReference.cache
 D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Core\obj\Debug\netcoreapp2.0\Sample.Web.Core.csproj.CoreCompileInputs.cache
 D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Core\obj\Debug\netcoreapp2.0\Sample.Web.Core.AssemblyInfoInputs.cache
 D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Core\obj\Debug\netcoreapp2.0\Sample.Web.Core.AssemblyInfo.cs
 D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Core\obj\Debug\netcoreapp2.0\Sample.Web.Core.csproj.CopyComplete
 D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Core\obj\Debug\netcoreapp2.0\Sample.Web.Core.dll
 D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Core\obj\Debug\netcoreapp2.0\Sample.Web.Core.pdb
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Web.Core\obj\Debug\netcoreapp2.0\Sample.Web.Core.csprojAssemblyReference.cache

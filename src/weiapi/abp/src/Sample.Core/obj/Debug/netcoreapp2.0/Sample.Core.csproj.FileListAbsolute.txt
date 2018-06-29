@@ -7,3 +7,4 @@ D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\obj\Debug
 D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\obj\Debug\netcoreapp2.0\Sample.Core.AssemblyInfo.cs
 D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\obj\Debug\netcoreapp2.0\Sample.Core.dll
 D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\obj\Debug\netcoreapp2.0\Sample.Core.pdb
+D:\Workspace\Javascript\qTemplate-ExtJS\src\weiapi\abp\src\Sample.Core\obj\Debug\netcoreapp2.0\Sample.Core.csprojAssemblyReference.cache

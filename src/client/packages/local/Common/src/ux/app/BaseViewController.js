@@ -4,7 +4,7 @@
     doHighLightRenderer: function (value, metaData, record, rowIndex, colIndex, store, view) {
         var me = this,
             proxy = store.getProxy(),
-            query = proxy.extraParams['query'];
+            query = proxy.extraParams['query'] || proxy.extraParams['Query'];
         return Ext.isEmpty(query) || Ext.isEmpty(value) ? value : value.replace(new RegExp('(' + query + ')', "gi"), '<span style="color:red;">$1</span>');
     },
 

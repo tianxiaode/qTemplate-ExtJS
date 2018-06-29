@@ -45,8 +45,12 @@
         };
     </script>
     -->
-    
     <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <script type="text/javascript">
+        var locale  =location.href.match(/lang=([\w-]+)/),
+            lang = (locale && locale[1]) || 'zh_cn';
+        document.write('<script src="resources/locale/'+ lang+'.js" type="text/javascript"><\/script>');
+    </script>
     <script type="text/javascript" src="resources/js/signalr.js"></script>
     <script id="microloader" data-app="9d99c1fb-f492-44be-986d-6999131c7531" type="text/javascript" src="bootstrap.js"></script>
 

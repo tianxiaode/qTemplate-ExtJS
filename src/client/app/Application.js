@@ -8,10 +8,6 @@ Ext.define('Admin.Application', {
     
     name: 'Admin',
 
-    requires: [
-        'Common.locale.Locale'
-    ],
-    
     stores: [
         // TODO: add global / shared stores here
         'NavigationTree'

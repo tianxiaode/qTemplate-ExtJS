@@ -1,3 +1,10 @@
+var I18N= I18N || {};
+
+Ext.onReady(function(){
+    I18N.init();
+});
+
+
 /*
  * This file is generated and updated by Sencha Cmd. You can edit this file as
  * needed for your application, but these edits will have to be merged by
@@ -10,8 +17,8 @@ Ext.application({
 
     requires: [
         'Common.overrides.*',
-        'Common.locale.*',
-        'Admin.locale.zh_CN',
+        //'Common.locale.*',
+        //'Admin.locale.zh_CN',
         'Common.util.*',
         'Admin.view.main.Main'
     ],
